@@ -2,15 +2,20 @@
 
 Two-pane layout:
     left  -- search + filters + scrollable species list
-    right -- selected species card (image + facts + summary)
+    right -- scrollable species card (image + facts + summary + sources)
+
+The right pane is a Canvas holding an inner Frame; the whole card scrolls
+together, so long summaries never spill off the bottom of the window --
+matching the scrolling pattern used in the ExoPiNet wiki. Mouse-wheel
+bindings cover Windows/macOS (<MouseWheel>) and X11 (<Button-4/5>) so
+Raspberry Pi OS behaves the same as the desktop build.
 """
 
 from __future__ import annotations
 
 import tkinter as tk
 import webbrowser
-from tkinter import ttk
-from typing import Callable
+from tkinter import messagebox, ttk
 
 from .data import (
     Filter,
@@ -39,26 +44,53 @@ COLOR_SWATCH = {
 }
 
 APP_TITLE = "Philippines Native Wiki"
-CARD_IMAGE_MAX = 380      # px on the long side inside the detail pane
+CARD_IMAGE_MAX = 340      # px on the long side inside the detail pane
+
+ABOUT_TEXT = (
+    "Philippines Native Wiki\n"
+    "60 plants and animals native to Metro Manila, Region III, and CALABARZON.\n\n"
+    "Text: excerpts from the English Wikipedia (CC BY-SA 4.0), fetched via the\n"
+    "MediaWiki REST summary API. Each species card shows the source article and\n"
+    "links back to it.\n\n"
+    "Images: lead photos from Wikimedia Commons. Each image retains its original\n"
+    "licence; the author + licence string is displayed on the species card and\n"
+    "recorded in data/species.json.\n\n"
+    "Curated regional, habitat, colour, and edibility tags are original to this\n"
+    "project (MIT-licensed) -- see scripts/seed.py."
+)
 
 
 class WikiApp:
     def __init__(self, root: tk.Tk) -> None:
         self.root = root
         self.root.title(APP_TITLE)
-        self.root.geometry("980x640")
-        self.root.minsize(760, 520)
+        self.root.geometry("1020x680")
+        self.root.minsize(780, 540)
 
         self.species: list[Species] = load_species()
         self.filter = Filter()
         self.visible: list[Species] = list(self.species)
         self.selected: Species | None = None
-        self._photo_ref = None    # keep Tk PhotoImage alive
+        self._photo_ref = None            # keep Tk PhotoImage alive
+        self._wraplength = 500            # updated on canvas resize
+        self._wrap_widgets: list[tk.Widget] = []   # widgets whose wraplength tracks the canvas
 
+        self._build_menu()
         self._build_layout()
         self._refresh_list()
         if self.visible:
             self._select(self.visible[0])
+
+    # ------------------------------------------------------------------ menu
+    def _build_menu(self) -> None:
+        menubar = tk.Menu(self.root)
+        helpm = tk.Menu(menubar, tearoff=False)
+        helpm.add_command(label="About / Sources", command=self._show_about)
+        menubar.add_cascade(label="Help", menu=helpm)
+        self.root.config(menu=menubar)
+
+    def _show_about(self) -> None:
+        messagebox.showinfo(APP_TITLE, ABOUT_TEXT, parent=self.root)
 
     # ---------------------------------------------------------------- layout
     def _build_layout(self) -> None:
@@ -75,7 +107,7 @@ class WikiApp:
         paned.pack(fill="both", expand=True)
 
         left = ttk.Frame(paned, padding=(4, 4))
-        right = ttk.Frame(paned, padding=(8, 4))
+        right = ttk.Frame(paned, padding=(4, 4))
         paned.add(left, weight=1)
         paned.add(right, weight=2)
 
@@ -117,7 +149,7 @@ class WikiApp:
         # habitat
         row = ttk.Frame(box); row.pack(fill="x", pady=2)
         ttk.Label(row, text="Habitat:").pack(side="left")
-        self.habitat_var = tk.StringVar(value="all")
+        self.habitat_var = tk.StringVar(value="Any")
         habitats = [("Any", "all")] + [(v, k) for k, v in HABITAT_LABELS.items()]
         cb = ttk.Combobox(row, state="readonly", textvariable=self.habitat_var,
                           values=[label for label, _ in habitats], width=18)
@@ -150,55 +182,140 @@ class WikiApp:
         self.listbox.bind("<<ListboxSelect>>", self._on_list_select)
 
     def _build_detail(self, parent: ttk.Frame) -> None:
-        self.detail = parent
+        # Scroll infrastructure: Canvas + inner Frame + Scrollbar
+        self._canvas = tk.Canvas(parent, borderwidth=0, highlightthickness=0)
+        vsb = ttk.Scrollbar(parent, orient="vertical", command=self._canvas.yview)
+        self._canvas.configure(yscrollcommand=vsb.set)
+        self._canvas.pack(side="left", fill="both", expand=True)
+        vsb.pack(side="right", fill="y")
 
-        self.image_label = ttk.Label(parent, anchor="center")
+        self._inner = ttk.Frame(self._canvas, padding=(6, 4, 6, 12))
+        self._canvas_window = self._canvas.create_window(
+            (0, 0), window=self._inner, anchor="nw",
+        )
+
+        self._inner.bind("<Configure>", self._on_inner_configure)
+        self._canvas.bind("<Configure>", self._on_canvas_configure)
+
+        # Mouse-wheel wiring: bind at the root level, then dispatch only if
+        # the pointer is currently over the detail canvas (or a descendant).
+        # Enter/Leave on the canvas itself doesn't fire when the pointer moves
+        # onto child widgets, so per-widget binding is the reliable option.
+        self.root.bind_all("<MouseWheel>", self._on_wheel_windows, add="+")
+        self.root.bind_all("<Button-4>", self._on_wheel_x11_up, add="+")
+        self.root.bind_all("<Button-5>", self._on_wheel_x11_down, add="+")
+
+        # --------------- content widgets (all inside self._inner)
+        self.image_label = tk.Label(self._inner, anchor="center")
         self.image_label.pack(fill="x", pady=(0, 8))
 
         self.name_var = tk.StringVar(value="")
-        ttk.Label(parent, textvariable=self.name_var,
-                  font=("TkDefaultFont", 16, "bold")).pack(anchor="w")
+        n = ttk.Label(self._inner, textvariable=self.name_var,
+                      font=("TkDefaultFont", 16, "bold"))
+        n.pack(anchor="w")
 
         self.sci_var = tk.StringVar(value="")
-        ttk.Label(parent, textvariable=self.sci_var,
-                  font=("TkDefaultFont", 11, "italic")).pack(anchor="w")
+        ttk.Label(self._inner, textvariable=self.sci_var,
+                  font=("TkDefaultFont", 11, "italic"),
+                  foreground="#444").pack(anchor="w")
 
-        self.chip_row = ttk.Frame(parent)
+        self.chip_row = ttk.Frame(self._inner)
         self.chip_row.pack(fill="x", pady=(6, 0))
 
-        self.color_row = ttk.Frame(parent)
+        self.color_row = ttk.Frame(self._inner)
         self.color_row.pack(fill="x", pady=(4, 0))
 
         self.facts_var = tk.StringVar(value="")
-        ttk.Label(parent, textvariable=self.facts_var,
-                  wraplength=520, justify="left").pack(anchor="w", pady=(6, 0))
+        f = ttk.Label(self._inner, textvariable=self.facts_var,
+                      justify="left")
+        f.pack(anchor="w", pady=(6, 0))
+        self._wrap_widgets.append(f)
 
-        # summary text
-        self.summary_text = tk.Text(parent, height=8, wrap="word",
-                                    borderwidth=1, relief="sunken")
-        self.summary_text.pack(fill="both", expand=True, pady=(8, 4))
-        self.summary_text.configure(state="disabled")
+        # ---- Summary
+        ttk.Separator(self._inner, orient="horizontal").pack(fill="x", pady=(10, 4))
+        ttk.Label(self._inner, text="Summary",
+                  font=("TkDefaultFont", 10, "bold")).pack(anchor="w")
+        self.summary_var = tk.StringVar(value="")
+        s = ttk.Label(self._inner, textvariable=self.summary_var,
+                      justify="left")
+        s.pack(anchor="w", pady=(2, 0))
+        self._wrap_widgets.append(s)
 
+        # ---- Location
+        ttk.Separator(self._inner, orient="horizontal").pack(fill="x", pady=(10, 4))
+        ttk.Label(self._inner, text="Where to find it",
+                  font=("TkDefaultFont", 10, "bold")).pack(anchor="w")
         self.location_var = tk.StringVar(value="")
-        ttk.Label(parent, textvariable=self.location_var,
-                  wraplength=520, justify="left",
-                  foreground="#333").pack(anchor="w", pady=(2, 4))
+        loc = ttk.Label(self._inner, textvariable=self.location_var,
+                        justify="left", foreground="#333")
+        loc.pack(anchor="w", pady=(2, 0))
+        self._wrap_widgets.append(loc)
 
-        actions = ttk.Frame(parent); actions.pack(fill="x", pady=(4, 0))
-        self.open_btn = ttk.Button(actions, text="Open on Wikipedia",
-                                   command=self._open_wikipedia)
-        self.open_btn.pack(side="left")
-        self.credit_var = tk.StringVar(value="")
-        ttk.Label(actions, textvariable=self.credit_var,
-                  foreground="#555").pack(side="right")
+        # ---- Sources
+        ttk.Separator(self._inner, orient="horizontal").pack(fill="x", pady=(10, 4))
+        ttk.Label(self._inner, text="Sources",
+                  font=("TkDefaultFont", 10, "bold")).pack(anchor="w")
+
+        self.text_source_var = tk.StringVar(value="")
+        ts = ttk.Label(self._inner, textvariable=self.text_source_var,
+                       justify="left", foreground="#333")
+        ts.pack(anchor="w", pady=(2, 0))
+        self._wrap_widgets.append(ts)
+
+        self.image_source_var = tk.StringVar(value="")
+        ims = ttk.Label(self._inner, textvariable=self.image_source_var,
+                        justify="left", foreground="#333")
+        ims.pack(anchor="w", pady=(2, 0))
+        self._wrap_widgets.append(ims)
+
+        self.source_buttons = ttk.Frame(self._inner)
+        self.source_buttons.pack(anchor="w", pady=(6, 0))
+
+    # ------------------------------------------------------- scroll plumbing
+    def _on_inner_configure(self, _event) -> None:
+        self._canvas.configure(scrollregion=self._canvas.bbox("all"))
+
+    def _on_canvas_configure(self, event) -> None:
+        # Keep the inner frame the same width as the canvas so labels wrap.
+        self._canvas.itemconfigure(self._canvas_window, width=event.width)
+        pad = 24  # room for the scrollbar + inner padding
+        new_wrap = max(200, event.width - pad)
+        if new_wrap != self._wraplength:
+            self._wraplength = new_wrap
+            for w in self._wrap_widgets:
+                w.configure(wraplength=new_wrap)
+
+    def _pointer_over_canvas(self, event) -> bool:
+        """True if the event's pointer is inside the detail canvas subtree."""
+        try:
+            w = self.root.winfo_containing(event.x_root, event.y_root)
+        except tk.TclError:
+            return False
+        while w is not None:
+            if w is self._canvas:
+                return True
+            w = getattr(w, "master", None)
+        return False
+
+    def _on_wheel_windows(self, event) -> None:
+        if not self._pointer_over_canvas(event):
+            return
+        self._canvas.yview_scroll(int(-event.delta / 60), "units")
+
+    def _on_wheel_x11_up(self, event) -> None:
+        if not self._pointer_over_canvas(event):
+            return
+        self._canvas.yview_scroll(-3, "units")
+
+    def _on_wheel_x11_down(self, event) -> None:
+        if not self._pointer_over_canvas(event):
+            return
+        self._canvas.yview_scroll(3, "units")
 
     # ------------------------------------------------------------- callbacks
     def _sync_habitat(self) -> None:
-        # combobox stores label; translate to code
         label = self.habitat_var.get()
-        code = self._habitat_lookup.get(label, "all")
-        self.habitat_var.set(label)   # keep display
-        self._habitat_code = code
+        self._habitat_code = self._habitat_lookup.get(label, "all")
 
     def _on_filter_change(self) -> None:
         self.filter.query = self.query_var.get()
@@ -216,9 +333,9 @@ class WikiApp:
         if 0 <= idx < len(self.visible):
             self._select(self.visible[idx])
 
-    def _open_wikipedia(self) -> None:
-        if self.selected and self.selected.wikipedia_url:
-            webbrowser.open_new_tab(self.selected.wikipedia_url)
+    def _open_url(self, url: str) -> None:
+        if url:
+            webbrowser.open_new_tab(url)
 
     # ---------------------------------------------------------------- render
     def _refresh_list(self) -> None:
@@ -246,11 +363,14 @@ class WikiApp:
         self.name_var.set("")
         self.sci_var.set("")
         self.facts_var.set("")
+        self.summary_var.set("")
         self.location_var.set("")
-        self.credit_var.set("")
-        self._set_summary("")
+        self.text_source_var.set("")
+        self.image_source_var.set("")
         for w in self.chip_row.winfo_children(): w.destroy()
         for w in self.color_row.winfo_children(): w.destroy()
+        for w in self.source_buttons.winfo_children(): w.destroy()
+        self._canvas.yview_moveto(0.0)
 
     def _select(self, sp: Species) -> None:
         self.selected = sp
@@ -258,9 +378,8 @@ class WikiApp:
         self.sci_var.set(sp.scientific_name)
 
         # facts line
-        facts = []
-        facts.append(f"Kind: {sp.kind.capitalize()} ({sp.group})")
-        facts.append("Edible: Yes" if sp.edible else "Edible: No")
+        facts = [f"Kind: {sp.kind.capitalize()} ({sp.group})",
+                 "Edible: Yes" if sp.edible else "Edible: No"]
         self.facts_var.set("    ".join(facts))
 
         # chips
@@ -286,16 +405,33 @@ class WikiApp:
             swatch.pack(side="left", padx=1)
             ttk.Label(self.color_row, text=c).pack(side="left", padx=(2, 6))
 
-        self._set_summary(sp.summary or "(no summary available)")
-        self.location_var.set(f"Location: {sp.location_notes}" if sp.location_notes else "")
-        self.credit_var.set(f"Image: {sp.image_credit}" if sp.image_credit else "")
+        self.summary_var.set(sp.summary or "(no summary available)")
+        self.location_var.set(sp.location_notes or "(no regional notes)")
+
+        # ---- sources
+        self.text_source_var.set(
+            f'Text: English Wikipedia article "{sp.common_name}" (CC BY-SA 4.0)'
+        )
+
+        if sp.image_file:
+            credit = sp.image_credit or "Wikimedia Commons"
+            self.image_source_var.set(f"Image: {credit} — via Wikimedia Commons")
+        else:
+            self.image_source_var.set("Image: none (no free image on Wikimedia Commons)")
+
+        for w in self.source_buttons.winfo_children(): w.destroy()
+        if sp.wikipedia_url:
+            ttk.Button(self.source_buttons, text="Open Wikipedia article",
+                       command=lambda u=sp.wikipedia_url: self._open_url(u)).pack(side="left", padx=(0, 6))
+        if sp.image_source_url:
+            ttk.Button(self.source_buttons, text="Open image on Commons",
+                       command=lambda u=sp.image_source_url: self._open_url(u)).pack(side="left")
+
         self._load_image(sp)
 
-    def _set_summary(self, text: str) -> None:
-        self.summary_text.configure(state="normal")
-        self.summary_text.delete("1.0", tk.END)
-        self.summary_text.insert("1.0", text)
-        self.summary_text.configure(state="disabled")
+        # Jump scroll to top when switching entries
+        self._canvas.update_idletasks()
+        self._canvas.yview_moveto(0.0)
 
     def _load_image(self, sp: Species) -> None:
         self._photo_ref = None

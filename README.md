@@ -96,10 +96,24 @@ iteratively lowered in quality until it fits under 1 MB.
 - **Edibility** — edible / not edible
 - **Search** — free-text over common + scientific names
 
+## Species card
+
+Each entry lives in a scrolling detail pane (mouse wheel, trackpad, or
+scrollbar) so long Wikipedia excerpts and long regional notes don't get
+clipped. The card shows: image, common + scientific name, region and
+habitat chips, colour swatches, edibility flag, Wikipedia summary,
+regional notes, and a **Sources** block with:
+
+- Text source: the source Wikipedia article and its licence (CC BY-SA 4.0)
+- Image source: the Commons author + licence string
+- Buttons to open the Wikipedia article and the Commons image page
+
+The `Help → About / Sources` menu also shows the global attribution.
+
 ## Attribution
 
 Every image records its Wikimedia Commons author and license in
-`species.json.imageCredit`. Text summaries are quoted from English
-Wikipedia under CC BY-SA 4.0. The `applications-science` icon is
-supplied by the desktop environment's icon theme (freedesktop.org
-standard name).
+`species.json.imageCredit`; the same string appears in the app's
+Sources block. Text summaries are quoted from English Wikipedia under
+CC BY-SA 4.0. The `applications-science` icon is supplied by the
+desktop environment's icon theme (freedesktop.org standard name).

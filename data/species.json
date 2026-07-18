@@ -1,0 +1,1704 @@
+{
+  "species": [
+    {
+      "id": "philippine-warty-pig",
+      "commonName": "Philippine warty pig",
+      "scientificName": "Sus philippensis",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "grey"
+      ],
+      "edible": true,
+      "locationNotes": "Sierra Madre and Zambales mountain forests; largely extirpated from lowlands.",
+      "summary": "The Philippine warty pig is one of four known species in the pig genus (Sus) endemic to the Philippines. They have tufts of hair on the top of their head and on the lower sides of their jaws, as well as four warts on their faces. Their skulls are elongated; males have tusks and bigger skulls than females, an example of sexual dimorphism. They are considered Vulnerable by the IUCN, and their population is currently declining due to multiple threats. The pigs are probably nocturnal.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_warty_pig",
+      "imageFile": "images/philippine-warty-pig.jpg",
+      "imageBytes": 272142,
+      "imageCredit": "Julia Sumangil / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Philippine_warty_pig_%28Sus_philippensis%29_in_Philippine_Eagle_Center%2C_Davao%2C_Philippines.jpg"
+    },
+    {
+      "id": "philippine-deer",
+      "commonName": "Philippine deer",
+      "scientificName": "Rusa marianna",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "grassland"
+      ],
+      "colors": [
+        "brown",
+        "tan",
+        "white"
+      ],
+      "edible": true,
+      "locationNotes": "Aurora, Bataan, Zambales, and the Sierra Madre foothills of Rizal / Quezon.",
+      "summary": "The Philippine deer, also known as the Philippine sambar or Philippine brown deer, is a vulnerable deer species endemic to the Philippines. It was first described from introduced populations in the Mariana Islands, hence the specific name.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_deer",
+      "imageFile": "images/philippine-deer.jpg",
+      "imageBytes": 288656,
+      "imageCredit": "Ramon FVelasquez / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Philippine_Deer_-_Rusa_marianna_-_Ninoy_Aquino_Parks_%26_Wildlife_Center_02.jpg"
+    },
+    {
+      "id": "northern-luzon-giant-cloud-rat",
+      "commonName": "Northern Luzon giant cloud rat",
+      "scientificName": "Phloeomys pallidus",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "white",
+        "grey",
+        "brown"
+      ],
+      "edible": true,
+      "locationNotes": "Central Cordillera and northern Sierra Madre; reaches Aurora and northern Nueva Ecija.",
+      "summary": "The northern Luzon giant cloud rat or northern Luzon slender-tailed cloud rat, also known as bu-ot in Filipino, is a large species of rodent in the family Muridae. It is only found in Luzon, the Philippines.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Northern_Luzon_giant_cloud_rat",
+      "imageFile": "images/northern-luzon-giant-cloud-rat.jpg",
+      "imageBytes": 177067,
+      "imageCredit": "Petr Hamerník / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Velemy%C5%A1_obl%C3%A1%C4%8Dkov%C3%A1_zoo_praha_2.jpg"
+    },
+    {
+      "id": "golden-crowned-flying-fox",
+      "commonName": "Golden-crowned flying fox",
+      "scientificName": "Acerodon jubatus",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "black",
+        "gold",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Roost colonies survive on Mt. Makiling, Subic, and Bataan National Park.",
+      "summary": "The giant golden-crowned flying fox, also known as the golden-capped fruit bat, is a species of megabat endemic to the Philippines. Since its description in 1831, three subspecies of the giant golden-crowned flying fox have been recognized, one of which is extinct. The extinct subspecies was formerly recognized as a full species, the Panay golden-crowned flying fox. Formerly, this species was placed in the genus Pteropus; while it is no longer within the genus, it has many physical similarities to Pteropus megabats. It is one of the largest bat species in the world, weighing up to 1.4 kg (3.1 lb)—only the Indian and great flying fox can weigh more. It has the longest documented forearm length of any bat species at 21 cm (8.3 in).",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Giant_golden-crowned_flying_fox",
+      "imageFile": "images/golden-crowned-flying-fox.jpg",
+      "imageBytes": 149394,
+      "imageCredit": "Gregg Yan / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Acerodon_jubatus_by_Gregg_Yan.jpg"
+    },
+    {
+      "id": "large-flying-fox",
+      "commonName": "Large flying fox",
+      "scientificName": "Pteropus vampyrus",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "coastal",
+        "urban"
+      ],
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Shares Subic and Los Banos roosts with Acerodon; foraging bats seen over Manila Bay.",
+      "summary": "The large flying fox, also known as the greater flying fox, Malayan flying fox, Malaysian flying fox, large fruit bat, kalang, or kalong, is a southeast Asian species of megabat in the family Pteropodidae. Despite its scientific name, it feeds exclusively on fruits, nectar, and flowers, like the other flying foxes of the genus Pteropus. It is noted for being one of the largest bats. As with nearly all other Old World fruit bats, it lacks the ability to echolocate but compensates for it with well-developed eyesight.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Large_flying_fox",
+      "imageFile": "images/large-flying-fox.jpg",
+      "imageBytes": 131598,
+      "imageCredit": "NobbiP / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wilhelma_Kalong-Flughund_Pteropus_vampyrus_0513.jpg"
+    },
+    {
+      "id": "asian-palm-civet",
+      "commonName": "Asian palm civet",
+      "scientificName": "Paradoxurus hermaphroditus",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "grey",
+        "black",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Present in urban Metro Manila greenbelts (UP Diliman, La Mesa) and coffee farms in Batangas / Cavite.",
+      "summary": "The Asian palm civet, also called common palm civet, toddy cat and musang, is a viverrid native to South and Southeast Asia. Since 2008, it is IUCN Red Listed as least concern as it accommodates to a broad range of habitats. It is widely distributed with large populations that in 2008 were thought unlikely to be declining. It is threatened by poaching for the illegal wildlife trade.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Asian_palm_civet",
+      "imageFile": "images/asian-palm-civet.jpg",
+      "imageBytes": 225708,
+      "imageCredit": "Bernard DUPONT from FRANCE / CC BY-SA 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Common_Palm_Civet_%28Paradoxurus_hermaphroditus%29_%287781509830%29.jpg"
+    },
+    {
+      "id": "malayan-civet",
+      "commonName": "Malayan civet",
+      "scientificName": "Viverra tangalunga",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "grassland"
+      ],
+      "colors": [
+        "grey",
+        "black",
+        "white"
+      ],
+      "edible": false,
+      "locationNotes": "Secondary forest in Aurora, Quezon, and the Sierra Madre corridor.",
+      "summary": "The Malayan civet, also known as the Malay civet and Oriental civet, is a viverrid native to the Malay Peninsula and the islands of Sumatra, Bangka, Borneo, the Riau Archipelago, and the Philippines. It is listed as \"Least Concern\" by IUCN as it is a relatively widely distributed, appears to be tolerant of degraded habitats, and occurs in a number of protected areas.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Malayan_civet",
+      "imageFile": "images/malayan-civet.jpg",
+      "imageBytes": 97369,
+      "imageCredit": "CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Malay_civet.jpg"
+    },
+    {
+      "id": "crab-eating-macaque",
+      "commonName": "Long-tailed (crab-eating) macaque",
+      "scientificName": "Macaca fascicularis",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "coastal",
+        "urban"
+      ],
+      "colors": [
+        "grey",
+        "brown",
+        "cream"
+      ],
+      "edible": false,
+      "locationNotes": "Bataan, Subic, Mt. Makiling, and the mangroves of Manila Bay.",
+      "summary": "Macaca fascicularis, variably know by common names such as the crab-eating macaque, the long-tailed macaque, or the cynomolgus monkey, is a macaque species native to Southeast Asia. As a synanthropic species, the crab-eating macaque thrives near human settlements and in secondary forests. The crab-eating macaque has developed a variety of cultural perceptions, from being smart and adaptive, to being sacred, to even being pests in some cases.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Macaca_fascicularis",
+      "imageFile": "images/crab-eating-macaque.jpg",
+      "imageBytes": 261747,
+      "imageCredit": "Deerpeter / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ubud_Monkey_Family.jpg"
+    },
+    {
+      "id": "luzon-fruit-bat",
+      "commonName": "Luzon fruit bat",
+      "scientificName": "Otopteropus cartilagonodus",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "brown",
+        "rust"
+      ],
+      "edible": false,
+      "locationNotes": "Endemic to Luzon montane forests -- Sierra Madre and southern Cordillera slopes.",
+      "summary": "The Luzon fruit bat is a species of megabat in the family Pteropodidae. It is the only species within the genus Otopteropus and is endemic to Luzon, Philippines. Its natural habitat is subtropical or tropical dry forest.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Luzon_fruit_bat",
+      "imageFile": "images/luzon-fruit-bat.jpg",
+      "imageBytes": 8039,
+      "imageCredit": "Chermundy / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Luzon_Fruit_Bat_area.png"
+    },
+    {
+      "id": "philippine-pygmy-fruit-bat",
+      "commonName": "Philippine pygmy fruit bat",
+      "scientificName": "Haplonycteris fischeri",
+      "kind": "animal",
+      "group": "mammal",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "brown",
+        "grey"
+      ],
+      "edible": false,
+      "locationNotes": "Common in lowland rainforest across Luzon, including Mt. Makiling.",
+      "summary": "The Fischer's pygmy fruit bat or Philippine pygmy fruit bat is a species of megabat in the family Pteropodidae. It is monotypic within the genus Haplonycteris. It is endemic to the Philippines. Its natural habitat is subtropical or tropical dry forests.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Fischer's_pygmy_fruit_bat",
+      "imageFile": "images/philippine-pygmy-fruit-bat.jpg",
+      "imageBytes": 191466,
+      "imageCredit": "Unknown authorUnknown author / Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Haplonycteris_fischeri.jpg"
+    },
+    {
+      "id": "luzon-hornbill",
+      "commonName": "Luzon hornbill",
+      "scientificName": "Penelopides manillae",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "black",
+        "cream",
+        "yellow"
+      ],
+      "edible": false,
+      "locationNotes": "Sierra Madre, Aurora Memorial National Park, and forested slopes of Quezon.",
+      "summary": "The Luzon hornbill, sometimes called Luzon tarictic hornbill, is a species of hornbill in the family Bucerotidae. It is endemic to forests on Luzon and nearby islands in the northern Philippines. All five Philippine tarictics were once considered a single species. It is declining due to habitat destruction, hunting and the illegal wildlife trade.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Luzon_hornbill",
+      "imageFile": "images/luzon-hornbill.jpg",
+      "imageBytes": 158793,
+      "imageCredit": "Len Worthington / CC BY-SA 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Luzon_Hornbill_Penelopides_manillae_%2816497674086%29.jpg"
+    },
+    {
+      "id": "philippine-duck",
+      "commonName": "Philippine duck",
+      "scientificName": "Anas luzonica",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "wetland",
+        "coastal"
+      ],
+      "colors": [
+        "brown",
+        "green",
+        "cream"
+      ],
+      "edible": true,
+      "locationNotes": "Candaba Swamp (Pampanga), Las Pinas-Paranaque wetlands, and Laguna de Bay.",
+      "summary": "The Philippine duck is a large dabbling duck of the genus Anas. Its native name is papan or patong gubat which translates to \"forest duck\" in Tagalog. It is the only endemic duck in the Philippines but has been recorded as a vagrant in Taiwan and Japan. Its habitat in a wide variety of wetlands from mountain lakes, marshes, small pools, streams, rivers, salt pans and even coastal waters where it feeds on shrimp, fish, insects and plant matter. This species has declined considerably since the 1960s because of hunting and habitat loss and is now listed as a Vulnerable species.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_duck",
+      "imageFile": "images/philippine-duck.jpg",
+      "imageBytes": 151677,
+      "imageCredit": "Ken Billington / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Philippine_Duck_%28Anas_luzonica%29_%2810%29.JPG"
+    },
+    {
+      "id": "philippine-trogon",
+      "commonName": "Philippine trogon",
+      "scientificName": "Harpactes ardens",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "red",
+        "brown",
+        "black",
+        "white"
+      ],
+      "edible": false,
+      "locationNotes": "Interior lowland forest of Sierra Madre and Quezon Protected Landscape.",
+      "summary": "The Philippine trogon is a species of bird in the family Trogonidae. It is endemic to the Philippines found on regions of Luzon, Eastern Visayas, and Mindanao. It is the only species of trogon in the country. While not a threatened species, its population is declining due to habitat loss and hunting.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_trogon",
+      "imageFile": "images/philippine-trogon.jpg",
+      "imageBytes": 188385,
+      "imageCredit": "Charles J. Sharp / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Philippine_trogon_%28Harpactes_ardens_linae%29_male_Bohol.jpg"
+    },
+    {
+      "id": "blue-naped-parrot",
+      "commonName": "Blue-naped parrot",
+      "scientificName": "Tanygnathus lucionensis",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "coastal"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "edible": false,
+      "locationNotes": "Coastal forest of Aurora and Polillo Islands off Quezon.",
+      "summary": "The blue-naped parrot, also known as the blue-crowned green parrot, Luzon parrot, the Philippine green parrot, and locally known as pikoy, is a parrot native throughout the Philippines and the Talaud Islands of Indonesia. It is threatened by habitat loss and trapping for the pet trade. \nIt is illegal to hunt, capture or possess Blue-naped parrots under Philippine Law RA 9147.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Blue-naped_parrot",
+      "imageFile": "images/blue-naped-parrot.jpg",
+      "imageBytes": 182943,
+      "imageCredit": "lonelyshrimp / CC0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Blue-naped_parrot_-Tanygnathus_lucionensis-8.jpg"
+    },
+    {
+      "id": "colasisi",
+      "commonName": "Colasisi (Philippine hanging parrot)",
+      "scientificName": "Loriculus philippensis",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "green",
+        "red",
+        "orange"
+      ],
+      "edible": false,
+      "locationNotes": "Widespread; small flocks recorded even in UP Diliman and Ninoy Aquino Parks.",
+      "summary": "The Philippine hanging parrot, also commonly known as the colasisi from its local Tagalog name \"kulasisi\", is a small psittaculid parrot species endemic to the Philippines. It includes about 9 subspecies but formerly included the Camiguin hanging parrot and the Black-billed hanging parrot which have seen been recognized as distinct species. While it is listed as Least Concern in IUCN, some subspecies, such as L. p. chyrsonotus of Cebu and L. p. siquijorensis of Siquijor, may already be extinct. The species is threatened by habitat loss, but a bigger threat is trapping for the illegal wildlife trade; wild-caught birds are often sold as pets in streets and online selling groups.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_hanging_parrot",
+      "imageFile": "images/colasisi.jpg",
+      "imageBytes": 133895,
+      "imageCredit": "Vinz Pascua / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Colasisi.png"
+    },
+    {
+      "id": "zebra-dove",
+      "commonName": "Zebra dove",
+      "scientificName": "Geopelia striata",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "urban",
+        "farmland",
+        "grassland"
+      ],
+      "colors": [
+        "brown",
+        "grey",
+        "black",
+        "white"
+      ],
+      "edible": true,
+      "locationNotes": "Ubiquitous in Metro Manila plazas, rice paddies of Bulacan and Nueva Ecija.",
+      "summary": "The zebra dove, also known as the barred ground dove, or barred dove, is a species of bird of the dove family, Columbidae, native to Southeast Asia. They are small birds with a long tail, predominantly brownish-grey in colour with black-and-white barring. The species is known for its pleasant, soft, staccato cooing calls.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Zebra_dove",
+      "imageFile": "images/zebra-dove.jpg",
+      "imageBytes": 101958,
+      "imageCredit": "JJ Harrison (https://tiny.jjharrison.com.au/t/1MF79Mf2vRuTfWFs) / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Geopelia_striata_1_crop_-_Chinese_Garden.jpg"
+    },
+    {
+      "id": "white-eared-brown-dove",
+      "commonName": "White-eared brown dove",
+      "scientificName": "Phapitreron leucotis",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "brown",
+        "white",
+        "grey"
+      ],
+      "edible": true,
+      "locationNotes": "Forest edges of Bataan, Aurora, Rizal, and Laguna.",
+      "summary": "The white-eared brown dove is a species of bird in the family Columbidae. It is endemic to the Philippines where it is found across most of the country except Palawan, Sulu and Batanes. Its habitat is in lowland and montane forests. This species population is decreasing in number due to habitat loss, hunting and the capture for the illegal wildlife trade.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/White-eared_brown_dove",
+      "imageFile": "images/white-eared-brown-dove.jpg",
+      "imageBytes": 315387,
+      "imageCredit": "Luke Marcos Imbong / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/A_White_Eared_Brown_Dove_perched_on_a_fruit_tree_in_the_Philippines_%28cropped%29.jpg"
+    },
+    {
+      "id": "philippine-coucal",
+      "commonName": "Philippine coucal",
+      "scientificName": "Centropus viridis",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "grassland",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "black",
+        "brown",
+        "rust"
+      ],
+      "edible": false,
+      "locationNotes": "Grasslands and brushy vacant lots across Metro Manila and Central Luzon plains.",
+      "summary": "The Philippine coucal is a species of cuckoo in the family Cuculidae.\nIt is endemic to the Philippines. It is an insectivore.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_coucal",
+      "imageFile": "images/philippine-coucal.jpg",
+      "imageBytes": 85402,
+      "imageCredit": "Francesco Veronesi / CC BY-SA 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Centropus_viridis.jpg"
+    },
+    {
+      "id": "coleto",
+      "commonName": "Coleto",
+      "scientificName": "Sarcops calvus",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "black",
+        "grey",
+        "pink"
+      ],
+      "edible": false,
+      "locationNotes": "Forest edges in Bataan, Zambales, and Quezon; often near fruiting trees.",
+      "summary": "The coleto is a starling species in the monotypic genus Sarcops. It is endemic to the Philippines. Its natural habitats are tropical dry forest, tropical moist lowland forest, and tropical moist montane forest. In Filipino and Tagalog, this bird is known as kuling or koleto, while in Central Visayas, it is commonly known as the sal-ing.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Coleto",
+      "imageFile": "images/coleto.jpg",
+      "imageBytes": 112935,
+      "imageCredit": "Domzjuniorwildlife / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hanging_Coleto.jpg"
+    },
+    {
+      "id": "balicassiao",
+      "commonName": "Balicassiao",
+      "scientificName": "Dicrurus balicassius",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "edible": false,
+      "locationNotes": "Common in secondary forest and coconut groves across Luzon.",
+      "summary": "The balicassiao is a species of passerine bird in the family Dicruridae.\nIt is endemic to the Philippines. Its natural habitat is tropical moist lowland forests.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Balicassiao",
+      "imageFile": "images/balicassiao.jpg",
+      "imageBytes": 416698,
+      "imageCredit": "Lip Kee Yap / CC BY-SA 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Dicrurus_balicassius.jpg"
+    },
+    {
+      "id": "philippine-pygmy-woodpecker",
+      "commonName": "Philippine pygmy woodpecker",
+      "scientificName": "Yungipicus maculatus",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "black",
+        "white",
+        "red"
+      ],
+      "edible": false,
+      "locationNotes": "Widespread in wooded areas including Mt. Makiling and Angat watershed.",
+      "summary": "The Philippine pygmy woodpecker, also known as the Philippine woodpecker, is a species of bird in the woodpecker family (Picidae). Its local name in Kapampangan is Anluage. It is endemic to the Philippines, found throughout the entire country except the Sulu Archipelago and Palawan. It is the smallest woodpecker in the country and is common throughout, found even in urban areas in cities.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_pygmy_woodpecker",
+      "imageFile": "images/philippine-pygmy-woodpecker.jpg",
+      "imageBytes": 124065,
+      "imageCredit": "Kirkamon Guapo Cabello / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/09_Philippine_Pygmy_Woodpecker.jpg"
+    },
+    {
+      "id": "guaiabero",
+      "commonName": "Guaiabero",
+      "scientificName": "Bolbopsittacus lunulatus",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "edible": false,
+      "locationNotes": "Sierra Madre foothills and orchards in Batangas and Laguna.",
+      "summary": "The guaiabero is a species of parrot in the family Psittaculidae, belonging to the monotypic genus Bolbopsittacus and closely related to the lovebirds and hanging parrots. It is endemic to the Philippines and locally known as bubutok. Its common name is derived from its reputation for eating guavas.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Guaiabero",
+      "imageFile": "images/guaiabero.jpg",
+      "imageBytes": 147141,
+      "imageCredit": "Kirkamon Cabello / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/MINDANAO_MALE_GUAIABERO_PARROT.jpg"
+    },
+    {
+      "id": "philippine-bulbul",
+      "commonName": "Philippine bulbul",
+      "scientificName": "Hypsipetes philippinus",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "brown",
+        "olive",
+        "cream"
+      ],
+      "edible": false,
+      "locationNotes": "Lowland to mid-elevation forest across Luzon.",
+      "summary": "The Philippine bulbul is a songbird species in the bulbul family, Pycnonotidae.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_bulbul",
+      "imageFile": "images/philippine-bulbul.jpg",
+      "imageBytes": 205193,
+      "imageCredit": "Charles J. Sharp / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Philippine_bulbul_%28Hypsipetes_philippinus_saturatior%29_Bohol.jpg"
+    },
+    {
+      "id": "elegant-tit",
+      "commonName": "Elegant tit",
+      "scientificName": "Periparus elegans",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "edible": false,
+      "locationNotes": "Mid-elevation forest of Mt. Makiling, Mt. Banahaw, and Sierra Madre.",
+      "summary": "The elegant tit is a species of bird in the tit family Paridae endemic to the Philippines. Its natural habitat is tropical moist lowland forests and tropical moist montane forests.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Elegant_tit",
+      "imageFile": "images/elegant-tit.jpg",
+      "imageBytes": 131675,
+      "imageCredit": "Gideon Ferrer / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Elegant_Tit2.jpg"
+    },
+    {
+      "id": "philippine-serpent-eagle",
+      "commonName": "Philippine serpent eagle",
+      "scientificName": "Spilornis holospilus",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "brown",
+        "cream",
+        "black"
+      ],
+      "edible": false,
+      "locationNotes": "Soars over forested ridges of the Sierra Madre and Zambales range.",
+      "summary": "The Philippine serpent eagle is an eagle found in the major islands of the Philippines. It is sometimes treated as a race of the crested serpent eagle. This species is usually found in forest clearings, open woodlands, and sometimes in cultivated lands with scattered trees. It is endemic to the Philippines. The species is found on most part of the major islands, except for Palawan.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_serpent_eagle",
+      "imageFile": "images/philippine-serpent-eagle.jpg",
+      "imageBytes": 181302,
+      "imageCredit": "Charles J. Sharp / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Philippine_serpent-eagle_%28Spilornis_holospilus%29_Bohol.jpg"
+    },
+    {
+      "id": "luzon-bleeding-heart",
+      "commonName": "Luzon bleeding-heart",
+      "scientificName": "Gallicolumba luzonica",
+      "kind": "animal",
+      "group": "bird",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "grey",
+        "red",
+        "white"
+      ],
+      "edible": false,
+      "locationNotes": "Ground-dwelling forest dove of the Sierra Madre, Aurora, and Polillo Islands.",
+      "summary": "The Luzon bleeding-heart, bleeding-heart dove, bleeding-heart pigeon or punay is a species of ground dove in the genus Gallicolumba, known as \"bleeding-hearts\" due to their distinctive red patch on its chest. It was also known as paloma de punalada 'stabbed pigeon' but is nowadays more commonly referred to as just punalada. The Luzon bleeding-heart is the species in which the \"blood\" feature is most pronounced, while the Mindanao bleeding-heart does have a larger red patch, the Luzon bleeding-heart has a reddish hue extending down the belly, furthering the illusion of a blood stain. It is threatened by habitat loss and hunting for the pet trade and for meat.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Luzon_bleeding-heart",
+      "imageFile": "images/luzon-bleeding-heart.jpg",
+      "imageBytes": 203766,
+      "imageCredit": "Kao-Tai / Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Australien2010_0547_LuzonBleedingHeart.jpg"
+    },
+    {
+      "id": "philippine-sailfin-lizard",
+      "commonName": "Philippine sailfin lizard",
+      "scientificName": "Hydrosaurus pustulatus",
+      "kind": "animal",
+      "group": "reptile",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "wetland",
+        "forest"
+      ],
+      "colors": [
+        "green",
+        "purple",
+        "grey"
+      ],
+      "edible": true,
+      "locationNotes": "Streams and river banks of Aurora, Quezon, and Sierra Madre lowlands.",
+      "summary": "Hydrosaurus pustulatus, commonly known as the Philippine sailfin lizard or the Philippine sailfin dragon, is a large semiaquatic agamid lizard endemic to all of the major island groups of the Philippines, with the exception of the Palawan islands. Like other sailfin lizards, they are characterized by large, sail-like dorsal crests on their tails. They can grow to a maximum length around 3 to 4 ft. They are strong swimmers, and smaller juvenile lizards can run briefly on the water surface. They inhabit areas of heavy vegetation near coastlines and low-lying rivers, particularly in mangrove forests. They are also known locally as layagan or balubid in Tagalog and ibid in the Visayan languages, among other names.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_sailfin_lizard",
+      "imageFile": "images/philippine-sailfin-lizard.jpg",
+      "imageBytes": 368279,
+      "imageCredit": "Janine Jaylo Lerios / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Philippine_Sailfin_Dragon.jpg"
+    },
+    {
+      "id": "marbled-water-monitor",
+      "commonName": "Marbled water monitor",
+      "scientificName": "Varanus marmoratus",
+      "kind": "animal",
+      "group": "reptile",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "wetland",
+        "coastal",
+        "urban"
+      ],
+      "colors": [
+        "black",
+        "yellow",
+        "grey"
+      ],
+      "edible": true,
+      "locationNotes": "Mangroves of Manila Bay, Candaba Swamp, and Laguna de Bay tributaries.",
+      "summary": "The marbled water monitor, also known commonly as the Philippine water monitor, is a large species of monitor lizard in the family Varanidae. The species is endemic to the Philippines.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Marbled_water_monitor",
+      "imageFile": "images/marbled-water-monitor.jpg",
+      "imageBytes": 360242,
+      "imageCredit": "Brown R, Siler C, Oliveros C, Welton L, Rock A, Swab J, Van Weerd M, van Beijnen J, Rodriguez D, Jose E, Diesmos A / CC BY 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Varanus_marmoratus_%28KU_330731%29_from_low-elevation%2C_Mt._Cagua_-_ZooKeys-266-001-g068.jpg"
+    },
+    {
+      "id": "reticulated-python",
+      "commonName": "Reticulated python",
+      "scientificName": "Malayopython reticulatus",
+      "kind": "animal",
+      "group": "reptile",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "wetland",
+        "farmland"
+      ],
+      "colors": [
+        "brown",
+        "black",
+        "yellow"
+      ],
+      "edible": true,
+      "locationNotes": "Forest and rice-paddy edges across Luzon; occasional urban strays.",
+      "summary": "The reticulated python is a python species native to South and Southeast Asia. It is the world's longest snake, and the third heaviest after the green anaconda and Burmese python. It is a non-venomous constrictor and an excellent swimmer that has been reported far out at sea. It has colonized many small islands within its range. Because of its wide distribution, it is listed as least concern on the IUCN Red List. In several countries in its range, it is hunted for its skin, for use in traditional medicine, and for sale as pets. Due to this, it is one of the most economically important reptiles worldwide. Humans, including adults, have occasionally been killed by reticulated pythons, and several well-documented cases involve victims being swallowed wholly or partly. Most recent reported fatal predation cases have occurred in Indonesia, especially on Sulawesi and nearby islands.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Reticulated_python",
+      "imageFile": "images/reticulated-python.jpg",
+      "imageBytes": 337473,
+      "imageCredit": "This photography was created by Mariluna. Other photos see here. / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Python_reticulatus_%D1%81%D0%B5%D1%82%D1%87%D0%B0%D1%82%D1%8B%D0%B9_%D0%BF%D0%B8%D1%82%D0%BE%D0%BD-2.jpg"
+    },
+    {
+      "id": "luzon-narrow-mouthed-frog",
+      "commonName": "Painted chorus frog (Luzon narrow-mouthed frog)",
+      "scientificName": "Kaloula picta",
+      "kind": "animal",
+      "group": "amphibian",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "wetland",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "brown",
+        "orange",
+        "black"
+      ],
+      "edible": false,
+      "locationNotes": "Pools and rice paddies from Metro Manila subdivisions to Nueva Ecija.",
+      "summary": "The painted narrowmouth toad, or slender-digit chorus frog, is a species of frog in the family Microhylidae.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Painted_narrowmouth_toad",
+      "imageFile": "images/luzon-narrow-mouthed-frog.jpg",
+      "imageBytes": 116156,
+      "imageCredit": "Thomas Brown / CC BY 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Slender-digit_Chorus_Frog_%28Kaloula_picta%29.jpg"
+    },
+    {
+      "id": "philippine-crocodile",
+      "commonName": "Philippine crocodile",
+      "scientificName": "Crocodylus mindorensis",
+      "kind": "animal",
+      "group": "reptile",
+      "regions": [
+        "region3"
+      ],
+      "habitats": [
+        "wetland"
+      ],
+      "colors": [
+        "olive",
+        "brown",
+        "black"
+      ],
+      "edible": false,
+      "locationNotes": "Critically endangered; historic records from Pampanga marshlands, now rare in Luzon.",
+      "summary": "The Philippine crocodile, also known as the Mindoro crocodile, the Philippine freshwater crocodile, the bukarot in Ilocano, and more generally as a buwaya in most Filipino lowland cultures, is endemic to the Philippines. It has been listed as critically endangered since 2008 due to exploitation and unsustainable fishing methods, such as dynamite fishing. Conservation methods are being taken by the Dutch/Filipino Mabuwaya foundation, the Crocodile Conservation Society and the Zoological Institute of HerpaWorld in Mindoro island. It is strictly prohibited to kill a crocodile in the country, and it is punishable by law.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Philippine_crocodile",
+      "imageFile": "images/philippine-crocodile.jpg",
+      "imageBytes": 254034,
+      "imageCredit": "Gregg Yan / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Crocodylus_mindorensis_by_Gregg_Yan_01.jpg"
+    },
+    {
+      "id": "narra",
+      "commonName": "Narra",
+      "scientificName": "Pterocarpus indicus",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "yellow",
+        "green",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "National tree; planted along Metro Manila avenues and native to Luzon lowland forest.",
+      "summary": "Pterocarpus indicus is a species of Pterocarpus in the family Fabaceae native to southeastern Asia, northern Australasia, and the western Pacific Ocean islands, in Cambodia, southernmost China, East Timor, Indonesia, Malaysia, Papua New Guinea, the Philippines, the Ryukyu Islands, the Solomon Islands, Thailand, and Vietnam.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Pterocarpus_indicus",
+      "imageFile": "images/narra.jpg",
+      "imageBytes": 218916,
+      "imageCredit": "Ping an Chang / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%E5%8D%B0%E5%BA%A6%E7%B4%AB%E6%AA%80_Pterocarpus_indicus_20200807191221_09.jpg"
+    },
+    {
+      "id": "molave",
+      "commonName": "Molave",
+      "scientificName": "Vitex parviflora",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "grassland"
+      ],
+      "colors": [
+        "purple",
+        "green",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Molave forest patches of Batangas, Cavite, and the Zambales foothills.",
+      "summary": "Vitex parviflora is a species of plant in the family Lamiaceae, also known as smallflower chastetree or the molave tree. The name \"molave\" is from Spanish, derived from mulawin, the Tagalog word for the tree. It is also known as tugas in Visayan languages. It is known as sagat in ilokano. It yields one of two woods from the same genus called molave wood, the other being Vitex cofassus.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Vitex_parviflora",
+      "imageFile": "images/molave.jpg",
+      "imageBytes": 262490,
+      "imageCredit": "Forest and Kim Starr / CC BY 3.0 us",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Starr-091104-9126-Vitex_parviflora-flowers_and_leaves-Kahanu_Gardens_NTBG_Kaeleku_Hana-Maui_%2824895355111%29.jpg"
+    },
+    {
+      "id": "kamagong",
+      "commonName": "Kamagong (Philippine ebony / Mabolo)",
+      "scientificName": "Diospyros blancoi",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "brown",
+        "red",
+        "pink"
+      ],
+      "edible": true,
+      "locationNotes": "Old-growth trees survive on university campuses (UP, Ateneo) and Laguna backyards.",
+      "summary": "Diospyros blancoi,, commonly known as velvet apple, velvet persimmon, kamagong, or mabolo tree, is a tree of the genus Diospyros of ebony trees and persimmons. It produces edible fruit with a fine, velvety, reddish-brown fur-like covering. The fruit has a soft, creamy, pink flesh, with a taste and aroma comparable to peaches.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Diospyros_blancoi",
+      "imageFile": "images/kamagong.jpg",
+      "imageBytes": 143436,
+      "imageCredit": "Shahidul Hasan Roman / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Diospyros_discolor_%28velvet_apple%2C_velvet_persimmon_or_mabolo_tree%29_of_Bangladesh_02.jpg"
+    },
+    {
+      "id": "ipil",
+      "commonName": "Ipil",
+      "scientificName": "Intsia bijuga",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "coastal"
+      ],
+      "colors": [
+        "red",
+        "brown",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Coastal and lowland forest of Bataan, Zambales, and Quezon.",
+      "summary": "Intsia bijuga, commonly known as Borneo teak, ipil, merbau, Johnstone River teak, and kwila, amongst many other names, is a species of tree in the flowering plant family Fabaceae, native to coastal areas from east Africa, through India and Southeast Asia to Australia and the western Pacific. It has significant importance to indigenous cultures in many parts of its range, but is also threatened by illegal logging due to its high quality timber. It is most commonly found in tropical coastal forests.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Intsia_bijuga",
+      "imageFile": "images/ipil.jpg",
+      "imageBytes": 428093,
+      "imageCredit": "Denis.prévôt / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Intsia_bijuga.jpg"
+    },
+    {
+      "id": "yakal",
+      "commonName": "Yakal",
+      "scientificName": "Shorea astylosa",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest"
+      ],
+      "colors": [
+        "yellow",
+        "brown",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Dwindling stands in Sierra Madre and Quezon Protected Landscape.",
+      "summary": "Shorea astylosa is a species of plant in the family Dipterocarpaceae. It is endemic to the Philippines, where it is known as yakal in the Filipino language.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Shorea_astylosa",
+      "imageFile": "images/yakal.jpg",
+      "imageBytes": 18173,
+      "imageCredit": "Unknown authorUnknown author / Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Shorea_astylosa.jpg"
+    },
+    {
+      "id": "bignay",
+      "commonName": "Bignay",
+      "scientificName": "Antidesma bunius",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "red",
+        "purple",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "Backyard tree throughout Luzon; fruit used for wine and jam in Laguna.",
+      "summary": "Antidesma bunius is a species of fruit tree in the family Phyllanthaceae. It is native to South Asia, Southeast Asia, Melanesia, and northern Australia. It is commonly known as bignay, after its native name in the Philippines, where the fruits are commonly used for making bignay wine and jams. It is also known more ambiguously as Chinese laurel, Queensland cherry, salamander tree, wild cherry, and currant tree.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Antidesma_bunius",
+      "imageFile": "images/bignay.jpg",
+      "imageBytes": 210855,
+      "imageCredit": "User:BotBln / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Antidesma_bunius_LeavesFruits_BotGardBln0906.JPG"
+    },
+    {
+      "id": "banaba",
+      "commonName": "Banaba",
+      "scientificName": "Lagerstroemia speciosa",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "purple",
+        "pink",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Native lowland tree; widely planted for its purple summer bloom.",
+      "summary": "Lagerstroemia speciosa is a species of Lagerstroemia native to tropical South Asia, Southeast Asia, and Melanesia. It is a deciduous tree with bright pink to light purple flowers.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Lagerstroemia_speciosa",
+      "imageFile": "images/banaba.jpg",
+      "imageBytes": 135520,
+      "imageCredit": "The original uploader was Lokenrc at English Wikipedia. / CC BY 2.5",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jarul.jpg"
+    },
+    {
+      "id": "ilang-ilang",
+      "commonName": "Ilang-ilang",
+      "scientificName": "Cananga odorata",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "yellow",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Widespread in home gardens; source of perfume oil around Batangas.",
+      "summary": "Cananga odorata, commonly known as ylang-ylang, Macassar oil tree, perfume tree or cananga, is a species of plant in the custard apple family Annonaceae. It is native to areas from Indochina to northeastern Australia, and has been introduced to many other regions. It is valued for the essential oil, also called ylang-ylang, which is extracted from the flowers. Ylang-ylang is one of the most extensively used natural fragrances in the perfume industry.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Cananga_odorata",
+      "imageFile": "images/ilang-ilang.jpg",
+      "imageBytes": 363277,
+      "imageCredit": "Vinayaraj / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Cananga_odorata_01.JPG"
+    },
+    {
+      "id": "duhat",
+      "commonName": "Duhat (Java plum)",
+      "scientificName": "Syzygium cumini",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "purple",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "Common shade tree from Metro Manila plazas to rural roadsides.",
+      "summary": "Syzygium cumini, also known as Java plum, Malabar plum, jambolan, black plum, jamun, jambul, is an evergreen tropical tree in the flowering plant family Myrtaceae, and favored for its fruit, timber, and ornamental value. It is native to the Indian subcontinent and Southeast Asia. It can reach heights of up to 30 m (100 ft) and can live more than 100 years. A rapidly growing plant, it is considered an invasive species in many world regions.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Syzygium_cumini",
+      "imageFile": "images/duhat.jpg",
+      "imageBytes": 335817,
+      "imageCredit": "Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Syzygium_cumini_Bra30.png"
+    },
+    {
+      "id": "santol",
+      "commonName": "Santol",
+      "scientificName": "Sandoricum koetjape",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "yellow",
+        "orange",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "Fruiting yards across Central Luzon; the Bangkok variety dominates orchards in Batangas.",
+      "summary": "Sandoricum koetjape, the santol, sentul, setun or cotton fruit, is a tropical fruit native to maritime Southeast Asia.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Sandoricum_koetjape",
+      "imageFile": "images/santol.jpg",
+      "imageBytes": 152875,
+      "imageCredit": "Francisco Manuel Blanco (O.S.A.) / Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sandoricum_koetjape_Blanco1.127.png"
+    },
+    {
+      "id": "lansones",
+      "commonName": "Lansones (Langsat)",
+      "scientificName": "Lansium parasiticum",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "yellow",
+        "cream",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "Backyard orchards of Laguna and Quezon; Paete lansones is a regional specialty.",
+      "summary": "Epicharis parasitica, commonly known as yellow mahogany, is a species of tree in the family Meliaceae; it grows primarily in tropical rainforests and is native to Taiwan, parts of Malesia, Papuasia, and northeast Queensland.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Epicharis_parasitica",
+      "imageFile": "images/lansones.jpg",
+      "imageBytes": 248252,
+      "imageCredit": "Wikimedia Commons",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dysoxylum_parasiticum_Mount_Hypipamee_Crater_Atherton_Tableland_Queensland_1987_IGA_29_3_2018_6_10_32_139b.tif/lossy-page1-1920px-Dysoxylum_parasiticum_Mount_Hypipamee_Crater_Atherton_Tableland_Queensland_1987_IGA_29_3_2018_6_10_32_139b.tif.jpg"
+    },
+    {
+      "id": "coconut",
+      "commonName": "Coconut",
+      "scientificName": "Cocos nucifera",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "coastal",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "yellow"
+      ],
+      "edible": true,
+      "locationNotes": "Dominant lowland crop; Quezon is one of the top coconut-producing provinces.",
+      "summary": "The coconut is a member of the palm family (Arecaceae) and the only living species of the genus Cocos. The term \"coconut\" can denote the whole coconut palm tree or the large hard fruit. Originally native to the Central Indo-Pacific, they are ubiquitous in coastal tropical regions.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Coconut",
+      "imageFile": "images/coconut.jpg",
+      "imageBytes": 270261,
+      "imageCredit": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen / Public domain",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg"
+    },
+    {
+      "id": "nipa-palm",
+      "commonName": "Nipa palm",
+      "scientificName": "Nypa fruticans",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "wetland",
+        "coastal"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "edible": true,
+      "locationNotes": "Estuaries of Manila Bay, Pampanga River delta, and Laguna de Bay tributaries.",
+      "summary": "Nypa fruticans, commonly known as the nipa palm or mangrove palm, is a species of palm native to the coastlines and estuarine habitats of the Indian and Pacific Oceans. It is the only palm considered adapted to the mangrove biome. The genus Nypa and the subfamily Nypoideae are monotypic taxa because this species is their only member.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Nypa_fruticans",
+      "imageFile": "images/nipa-palm.jpg",
+      "imageBytes": 197159,
+      "imageCredit": "Qaalvin / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nipa_palms.jpg"
+    },
+    {
+      "id": "anahaw",
+      "commonName": "Anahaw",
+      "scientificName": "Saribus rotundifolius",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "edible": true,
+      "locationNotes": "National leaf; wild in Aurora and Quezon lowland forest, cultivated in Manila parks.",
+      "summary": "Saribus rotundifolius, also known as the footstool palm, is a common fan palm found in Southeast Asia. It is a member of the genus Saribus.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saribus_rotundifolius",
+      "imageFile": "images/anahaw.jpg",
+      "imageBytes": 183714,
+      "imageCredit": "Pescov / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Livistona_rotundifolia.JPG"
+    },
+    {
+      "id": "buri-palm",
+      "commonName": "Buri palm",
+      "scientificName": "Corypha utan",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "grassland",
+        "farmland"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "cream"
+      ],
+      "edible": true,
+      "locationNotes": "Open grasslands of Bulacan and Tarlac; long harvested for buri fibre.",
+      "summary": "Corypha utan, the cabbage palm, buri palm or gebang palm, is a species of palm native to Asia and Oceania.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Corypha_utan",
+      "imageFile": "images/buri-palm.jpg",
+      "imageBytes": 206706,
+      "imageCredit": "Bruceanthro at English Wikipedia / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/CabbagePalm01.jpg"
+    },
+    {
+      "id": "sampaguita",
+      "commonName": "Sampaguita",
+      "scientificName": "Jasminum sambac",
+      "kind": "plant",
+      "group": "flower",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "urban",
+        "farmland"
+      ],
+      "colors": [
+        "white",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "National flower; commercially grown in San Pedro, Laguna and Bulacan.",
+      "summary": "Jasminum sambac is a species of jasmine native to Bhutan and India. It is cultivated in many places, especially West Asia, South Asia and Southeast Asia. It is naturalised in many scattered locales: Mauritius, Madagascar, the Maldives, Christmas Island, Chiapas, Central America, southern Florida, the Bahamas, Cuba, Hispaniola, Jamaica, Puerto Rico, and the Lesser Antilles.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Jasminum_sambac",
+      "imageFile": "images/sampaguita.jpg",
+      "imageBytes": 154999,
+      "imageCredit": "Habib M'henni / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Arabian_jasmin%2C_Tunisia_2010.jpg"
+    },
+    {
+      "id": "calamansi",
+      "commonName": "Calamansi",
+      "scientificName": "Citrus x microcarpa",
+      "kind": "plant",
+      "group": "shrub",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "green",
+        "yellow",
+        "white"
+      ],
+      "edible": true,
+      "locationNotes": "Household staple; commercially cultivated in Nueva Ecija and Batangas.",
+      "summary": "Calamansi, also known as calamondin, Philippine lime, or Philippine lemon, is a citrus hybrid cultivated predominantly in the Philippines. It is native to the Philippines, parts of Indonesia, Malaysia, and Brunei, as well as Taiwan, Sri Lanka and parts of southern China.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Calamansi",
+      "imageFile": "images/calamansi.jpg",
+      "imageBytes": 150339,
+      "imageCredit": "Krzysztof Ziarnek, Kenraiz / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Citrus_%C3%97_microcarpa_kz1.jpg"
+    },
+    {
+      "id": "talahib",
+      "commonName": "Talahib",
+      "scientificName": "Saccharum spontaneum",
+      "kind": "plant",
+      "group": "grass",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "grassland",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "silver",
+        "cream",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Colonises riverbanks and vacant lots throughout Luzon lowlands.",
+      "summary": "Saccharum spontaneum is a grass native throughout much of tropical and subtropical Asia, northern Australia, and eastern and northern Africa. It is a perennial grass, growing up to three meters in height, with spreading rhizomatous roots.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Saccharum_spontaneum",
+      "imageFile": "images/talahib.jpg",
+      "imageBytes": 199670,
+      "imageCredit": "Md Arif bd / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/%E0%A6%95%E0%A6%BE%E0%A6%B6_%E0%A6%AB%E0%A7%81%E0%A6%B2.jpg"
+    },
+    {
+      "id": "cogon",
+      "commonName": "Cogon",
+      "scientificName": "Imperata cylindrica",
+      "kind": "plant",
+      "group": "grass",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "grassland",
+        "farmland"
+      ],
+      "colors": [
+        "silver",
+        "green",
+        "cream"
+      ],
+      "edible": false,
+      "locationNotes": "Vast cogonales of Zambales, Nueva Ecija, and the Bicol side of Quezon.",
+      "summary": "Imperata cylindrica is a species of perennial rhizomatous grass native to tropical and subtropical Asia, Micronesia, Melanesia, Australia, Africa, and Southern Europe. It has also been introduced to Latin America, the Caribbean, and the Southeastern United States. It is a highly flammable pyrophyte, and can spread rapidly by colonizing disturbed areas and encouraging more frequent wildfires.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Imperata_cylindrica",
+      "imageFile": "images/cogon.jpg",
+      "imageBytes": 250513,
+      "imageCredit": "No machine-readable author provided. Keisotyo assumed (based on copyright claims). / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Imperata_cylindrica_tigaya_colony.jpg"
+    },
+    {
+      "id": "makahiya",
+      "commonName": "Makahiya",
+      "scientificName": "Mimosa pudica",
+      "kind": "plant",
+      "group": "herb",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "grassland",
+        "farmland",
+        "urban"
+      ],
+      "colors": [
+        "pink",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Sidewalk cracks and pasture edges throughout the region.",
+      "summary": "Mimosa pudica is a creeping annual or perennial flowering plant of the pea/legume family Fabaceae. It is often grown for its curiosity value: the sensitive compound leaves quickly fold inward and droop when touched or shaken and re-open a few minutes later. For this reason, this species is commonly cited as an example of rapid plant movement. Like a number of other plant species, it undergoes changes in leaf orientation termed \"sleep\" or nyctinastic movement. The foliage closes during darkness and reopens in light. This was first studied by French scientist Jean-Jacques d'Ortous. In the UK it has gained the Royal Horticultural Society's Award of Garden Merit.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Mimosa_pudica",
+      "imageFile": "images/makahiya.jpg",
+      "imageBytes": 208410,
+      "imageCredit": "Suyash.dwivedi / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mimosa_pudica_in_September_month.jpg"
+    },
+    {
+      "id": "rafflesia-manillana",
+      "commonName": "Rafflesia manillana",
+      "scientificName": "Rafflesia manillana",
+      "kind": "plant",
+      "group": "flower",
+      "regions": [
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "red",
+        "orange",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Rare parasitic bloom recorded on Mt. Banahaw and adjacent Quezon forests.",
+      "summary": "Rafflesia manillana is a parasitic plant species of the genus Rafflesia. It is endemic to the Philippines.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Rafflesia_manillana",
+      "imageFile": null
+    },
+    {
+      "id": "malabulak",
+      "commonName": "Malabulak (Red silk-cotton tree)",
+      "scientificName": "Bombax ceiba",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "red",
+        "orange",
+        "green"
+      ],
+      "edible": true,
+      "locationNotes": "Dry-season firebursts in Nueva Ecija and Tarlac lowlands.",
+      "summary": "Bombax ceiba, like other trees of the genus Bombax, is commonly known as cotton tree. More specifically, it is sometimes known as Malabar silk-cotton tree; red silk-cotton; red cotton tree; or ambiguously as silk-cotton or kapok, both of which may also refer to Ceiba pentandra.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bombax_ceiba",
+      "imageFile": "images/malabulak.jpg",
+      "imageBytes": 385708,
+      "imageCredit": "VintageHygrometer / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bombax_Ceiba_in_Shatin.jpg"
+    },
+    {
+      "id": "tibig",
+      "commonName": "Tibig",
+      "scientificName": "Ficus nota",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "wetland"
+      ],
+      "colors": [
+        "green",
+        "brown",
+        "yellow"
+      ],
+      "edible": true,
+      "locationNotes": "Riparian tree valued as a water indicator across Sierra Madre streams.",
+      "summary": "Ficus nota is a species of flowering plant in the family Moraceae. It is commonly known as tibig or sacking tree, is a species of fig tree found near water in low altitudes. Tibig is native to the Philippines. They are also found in parts of northern Borneo in Malaysia.The tree can grow up to 9 meters high. It is primarily dispersed by birds which eat the fruits and excrete the seeds. The fruits are also edible to humans, although they are rather bland. They are usually eaten with sugar and cream in the Philippines. The young leaves are also eaten as a vegetable.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ficus_nota",
+      "imageFile": "images/tibig.jpg",
+      "imageBytes": 173149,
+      "imageCredit": "Forest &amp; Kim Starr / CC BY 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Starr_070727-7677_Ficus_nota.jpg"
+    },
+    {
+      "id": "alibangbang",
+      "commonName": "Alibangbang",
+      "scientificName": "Bauhinia malabarica",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "green",
+        "white",
+        "brown"
+      ],
+      "edible": true,
+      "locationNotes": "Butterfly-shaped leaves used as a sour cooking ingredient in Ilocano and Kapampangan kitchens.",
+      "summary": "Piliostigma malabaricum is a small tree species in the family Fabaceae. It was previously placed in the genus Bauhinia, but names changed with reorganisation of the subfamily Cercidoideae and the tribe Bauhinieae.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Piliostigma_malabaricum",
+      "imageFile": "images/alibangbang.jpg",
+      "imageBytes": 140118,
+      "imageCredit": "Dinesh Valke from Thane, India / CC BY-SA 2.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ashmantaka_%28Sanskrit-_%E0%A4%85%E0%A4%B6%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%95%29_%284000471700%29.jpg"
+    },
+    {
+      "id": "dita",
+      "commonName": "Dita (Blackboard tree)",
+      "scientificName": "Alstonia scholaris",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban"
+      ],
+      "colors": [
+        "white",
+        "green",
+        "grey"
+      ],
+      "edible": false,
+      "locationNotes": "Common street and campus tree; wild in lowland forest of Aurora and Quezon.",
+      "summary": "Alstonia scholaris, commonly called blackboard tree, scholar tree, milkwood or devil's tree in English, is an evergreen tree in the oleander and frangipani family Apocynaceae. Its natural range is from Pakistan to China, and south to northern Australia. It is a toxic plant, but is used traditionally for myriad diseases and complaints. It is called 'Saptaparna' in India and is the sacred tree of the 2nd Jain tirthankar Ajitnatha. It was first described by Linnaeus in 1767, who gave it the name Echites scholaris.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Alstonia_scholaris",
+      "imageFile": "images/dita.jpg",
+      "imageBytes": 220663,
+      "imageCredit": "CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Alstonia_scholaris.jpg"
+    },
+    {
+      "id": "kawayan-tinik",
+      "commonName": "Kawayan tinik (Spiny bamboo)",
+      "scientificName": "Bambusa blumeana",
+      "kind": "plant",
+      "group": "grass",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "farmland",
+        "wetland",
+        "forest"
+      ],
+      "colors": [
+        "green",
+        "yellow"
+      ],
+      "edible": true,
+      "locationNotes": "Riverbank clumps across Central Luzon; edible shoots (labong) are a regional staple.",
+      "summary": "Bambusa spinosa, also known as B. blumeana, spiny bamboo or thorny bamboo, although in this respect it may be confused with Bambusa bambos, is a species of clumping bamboo occurring in Tropical Asia.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Bambusa_spinosa",
+      "imageFile": "images/kawayan-tinik.jpg",
+      "imageBytes": 306448,
+      "imageCredit": "Wibowo Djatmiko (Wie146) / CC BY-SA 4.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Bambus_blumean_160603-59102_ponr.JPG"
+    },
+    {
+      "id": "wild-banana",
+      "commonName": "Wild banana (Saging na ligaw)",
+      "scientificName": "Musa balbisiana",
+      "kind": "plant",
+      "group": "herb",
+      "regions": [
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "farmland"
+      ],
+      "colors": [
+        "green",
+        "yellow",
+        "purple"
+      ],
+      "edible": true,
+      "locationNotes": "Ancestor of saba banana; occurs wild in Aurora and Quezon foothills.",
+      "summary": "Musa balbisiana, also known simply as plantain, is a wild-type species of banana. It is one of the ancestors of modern cultivated bananas, along with Musa acuminata.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Musa_balbisiana",
+      "imageFile": "images/wild-banana.jpg",
+      "imageBytes": 324101,
+      "imageCredit": "Xufanc / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Kluay_Tani26.JPG"
+    },
+    {
+      "id": "weeping-fig-balete",
+      "commonName": "Balete (Weeping fig)",
+      "scientificName": "Ficus benjamina",
+      "kind": "plant",
+      "group": "tree",
+      "regions": [
+        "ncr",
+        "region3",
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "urban"
+      ],
+      "colors": [
+        "green",
+        "brown"
+      ],
+      "edible": false,
+      "locationNotes": "Sprawling balete trees at Aurora Boulevard, Los Banos, and roadside shrines in Batangas.",
+      "summary": "Ficus benjamina, commonly known as weeping fig, benjamin fig or ficus tree and often sold in stores as just ficus, is a species of flowering plant in the family Moraceae, native to Asia and Australia. It is the official tree of Bangkok. The species is also naturalized in the West Indies and in the states of Florida and Arizona in the United States. Its small fruit are favored by some birds. Ficus trees have proved to have environmental benefits in urban areas, such as acting as biomonitors. The species is also associated with some allergens.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Ficus_benjamina",
+      "imageFile": "images/weeping-fig-balete.jpg",
+      "imageBytes": 372536,
+      "imageCredit": "Forest and Kim Starr / CC BY 3.0 us",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Starr-080608-7576-Ficus_benjamina-habit_with_Laysan_albatross-Gym_Sand_Island-Midway_Atoll_%2824823189861%29.jpg"
+    },
+    {
+      "id": "kapa-kapa",
+      "commonName": "Kapa-kapa",
+      "scientificName": "Medinilla magnifica",
+      "kind": "plant",
+      "group": "flower",
+      "regions": [
+        "calabarzon"
+      ],
+      "habitats": [
+        "forest",
+        "mountain"
+      ],
+      "colors": [
+        "pink",
+        "purple",
+        "green"
+      ],
+      "edible": false,
+      "locationNotes": "Epiphyte of Mt. Makiling and Mt. Banahaw mossy forest.",
+      "summary": "Medinilla magnifica, the showy medinilla or rose grape, is a species of epiphytic flowering plant, of the family Melastomataceae, native to the Philippines. Various cultivars and hybrids of this species, genus and family are well-known and have grown to be popular with plant collectors; the species Medinilla speciosa is equally as popular.",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/Medinilla_magnifica",
+      "imageFile": "images/kapa-kapa.jpg",
+      "imageBytes": 264165,
+      "imageCredit": "No machine-readable author provided. Alberto Salguero assumed (based on copyright claims). / CC BY-SA 3.0",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Medinilla_magnifica_flor.jpg"
+    }
+  ]
+}

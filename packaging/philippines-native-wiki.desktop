@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Philippines Native Wiki
+GenericName=Native Species Browser
+Comment=Browse 60 plants and animals native to Metro Manila, Region III, and CALABARZON
+Exec=python3 __APP_DIR__/app/main.py
+Path=__APP_DIR__
+Icon=applications-science
+Terminal=false
+Categories=Science;Education;Biology;
+Keywords=wiki;philippines;plants;animals;species;luzon;biology;
+StartupNotify=true

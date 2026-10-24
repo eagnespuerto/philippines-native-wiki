@@ -1,5 +1,12 @@
 # Philippines Native Wiki
 
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![release](https://img.shields.io/github/v/release/eagnespuerto/philippines-native-wiki?include_prereleases&sort=semver)](https://github.com/eagnespuerto/philippines-native-wiki/releases/latest)
+[![made with](https://img.shields.io/badge/made%20with-Python-3776AB?logo=python&logoColor=white)](https://github.com/eagnespuerto/philippines-native-wiki)
+[![platform](https://img.shields.io/badge/platform-Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)](https://github.com/eagnespuerto/philippines-native-wiki#readme)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support%20me-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/eagnespuerto)
+[![Linktree](https://img.shields.io/badge/Linktree-soitsagnes-43E55E?logo=linktree&logoColor=white)](https://linktr.ee/soitsagnes)
+
 A downsized wiki of ~60 plants and animals native to **Metro Manila**, **Region III (Central Luzon)**, and **CALABARZON**, packaged as a lightweight Tkinter app that runs on 32-bit Raspberry Pi OS.
 
 - Text: Wikipedia (CC BY-SA 4.0 excerpts)
